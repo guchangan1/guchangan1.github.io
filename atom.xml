@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://guchangan1.github.io/"/>
-  <updated>2020-04-04T05:52:28.867Z</updated>
+  <updated>2020-04-04T10:26:26.503Z</updated>
   <id>https://guchangan1.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>xss备忘录</title>
+    <link href="https://guchangan1.github.io/2020/04/04/test/"/>
+    <id>https://guchangan1.github.io/2020/04/04/test/</id>
+    <published>2020-04-04T08:41:25.000Z</published>
+    <updated>2020-04-04T10:26:26.503Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;XSS备忘录&quot;&gt;&lt;a href=&quot;#XSS备忘录&quot; class=&quot;headerlink&quot; title=&quot;XSS备忘录&quot;&gt;&lt;/a&gt;XSS备忘录&lt;/h2&gt;&lt;h2 id=&quot;0x00-渗透流程&quot;&gt;&lt;a href=&quot;#0x00-渗透流程&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="xss" scheme="https://guchangan1.github.io/categories/xss/"/>
+    
+    
+      <category term="xss" scheme="https://guchangan1.github.io/tags/xss/"/>
+    
+      <category term="渗透测试" scheme="https://guchangan1.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>十大经典排序算法整理汇总（附代码）</title>
