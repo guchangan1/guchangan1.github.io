@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://guchangan1.github.io/friends/index.html</loc>
-    
-    <lastmod>2020-04-04T05:52:28.870Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://guchangan1.github.io/tags/index.html</loc>
     
     <lastmod>2020-04-04T05:52:28.870Z</lastmod>
@@ -16,9 +9,9 @@
   </url>
   
   <url>
-    <loc>https://guchangan1.github.io/archives/index.html</loc>
+    <loc>https://guchangan1.github.io/friends/index.html</loc>
     
-    <lastmod>2020-04-04T05:52:28.869Z</lastmod>
+    <lastmod>2020-04-04T05:52:28.870Z</lastmod>
     
   </url>
   
@@ -31,6 +24,13 @@
   
   <url>
     <loc>https://guchangan1.github.io/contact/index.html</loc>
+    
+    <lastmod>2020-04-04T05:52:28.869Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://guchangan1.github.io/archives/index.html</loc>
     
     <lastmod>2020-04-04T05:52:28.869Z</lastmod>
     
