@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://guchangan1.github.io/"/>
-  <updated>2020-04-04T10:26:26.503Z</updated>
+  <updated>2020-04-14T09:39:47.316Z</updated>
   <id>https://guchangan1.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>xss备忘录</title>
-    <link href="https://guchangan1.github.io/2020/04/04/test/"/>
-    <id>https://guchangan1.github.io/2020/04/04/test/</id>
-    <published>2020-04-04T08:41:25.000Z</published>
-    <updated>2020-04-04T10:26:26.503Z</updated>
+    <title>“owasp top 10”</title>
+    <link href="https://guchangan1.github.io/2020/04/14/owasp-top-10/"/>
+    <id>https://guchangan1.github.io/2020/04/14/owasp-top-10/</id>
+    <published>2020-04-14T09:07:03.000Z</published>
+    <updated>2020-04-14T09:39:47.316Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,34 @@
       
         
         
-          &lt;h2 id=&quot;XSS备忘录&quot;&gt;&lt;a href=&quot;#XSS备忘录&quot; class=&quot;headerlink&quot; title=&quot;XSS备忘录&quot;&gt;&lt;/a&gt;XSS备忘录&lt;/h2&gt;&lt;h2 id=&quot;0x00-渗透流程&quot;&gt;&lt;a href=&quot;#0x00-渗透流程&quot;
+          &lt;h2 id=&quot;Owasp-Top10介绍&quot;&gt;&lt;a href=&quot;#Owasp-Top10介绍&quot; class=&quot;headerlink&quot; title=&quot;Owasp Top10介绍&quot;&gt;&lt;/a&gt;Owasp Top10介绍&lt;/h2&gt;&lt;h3 id=&quot;什么是OWASP-Top-10&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="渗透测试" scheme="https://guchangan1.github.io/categories/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="渗透测试" scheme="https://guchangan1.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>xss备忘录</title>
+    <link href="https://guchangan1.github.io/2020/04/04/test/"/>
+    <id>https://guchangan1.github.io/2020/04/04/test/</id>
+    <published>2020-04-04T08:41:25.000Z</published>
+    <updated>2020-04-14T09:08:55.492Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;前言&lt;/p&gt;
+&lt;h2 id=&quot;XSS备忘录&quot;&gt;&lt;a href=&quot;#XSS备忘录&quot; class=&quot;headerlink&quot; title=&quot;XSS备忘录&quot;&gt;&lt;/a&gt;XSS备忘录&lt;/h2&gt;&lt;h2 id=&quot;0x00-渗透流程&quot;&gt;&lt;a href=&quot;#0x00-渗透流程&quot;
         
       
     
@@ -49,7 +76,7 @@
     <link href="https://guchangan1.github.io/2020/02/16/sort-algorithms/"/>
     <id>https://guchangan1.github.io/2020/02/16/sort-algorithms/</id>
     <published>2020-02-16T07:09:23.000Z</published>
-    <updated>2020-04-04T05:52:28.867Z</updated>
+    <updated>2020-04-14T09:09:07.076Z</updated>
     
     <summary type="html">
     
@@ -57,11 +84,7 @@
       
         
         
-          &lt;blockquote&gt;
-&lt;p&gt;关注公众号【算法码上来】，每日算法干货马上就来！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/medias/contact.jpg&quot; alt&gt;&lt;/p&gt;
-&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot;
+          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
         
       
     
