@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://guchangan1.github.io/"/>
-  <updated>2020-04-14T09:39:47.316Z</updated>
+  <updated>2020-04-18T01:27:31.358Z</updated>
   <id>https://guchangan1.github.io/</id>
   
   <author>
@@ -17,11 +17,70 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>source-notebook2</title>
+    <link href="https://guchangan1.github.io/2020/04/18/source-notebook2/"/>
+    <id>https://guchangan1.github.io/2020/04/18/source-notebook2/</id>
+    <published>2020-04-18T01:24:30.000Z</published>
+    <updated>2020-04-18T01:27:31.358Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;## &lt;/p&gt;
+&lt;h2 id=&quot;安全资源&quot;&gt;&lt;a href=&quot;#安全资源&quot; class=&quot;headerlink&quot; title=&quot;安全资源&quot;&gt;&lt;/a&gt;安全资源&lt;/h2&gt;&lt;p&gt;安全资源包括安全书籍，资料，安全教程，学习平台等等。&lt;/p&gt;
+&lt;h3
+        
+      
+    
+    </summary>
+    
+      <category term="学习资源" scheme="https://guchangan1.github.io/categories/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/"/>
+    
+    
+      <category term="渗透测试" scheme="https://guchangan1.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="渗透工具" scheme="https://guchangan1.github.io/tags/%E6%B8%97%E9%80%8F%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>source-notebook</title>
+    <link href="https://guchangan1.github.io/2020/04/18/source-notebook/"/>
+    <id>https://guchangan1.github.io/2020/04/18/source-notebook/</id>
+    <published>2020-04-18T01:19:09.000Z</published>
+    <updated>2020-04-18T01:26:45.637Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;## &lt;/p&gt;
+&lt;p&gt;1、网盘存的一堆书&lt;br&gt;链接: &lt;a href=&quot;https://pan.baidu.com/s/11TtPM19fzde0UBZ7yzGPMg&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="学习资源" scheme="https://guchangan1.github.io/categories/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/"/>
+    
+    
+      <category term="渗透测试" scheme="https://guchangan1.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="渗透工具" scheme="https://guchangan1.github.io/tags/%E6%B8%97%E9%80%8F%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
     <title>“owasp top 10”</title>
     <link href="https://guchangan1.github.io/2020/04/14/owasp-top-10/"/>
     <id>https://guchangan1.github.io/2020/04/14/owasp-top-10/</id>
     <published>2020-04-14T09:07:03.000Z</published>
-    <updated>2020-04-14T09:39:47.316Z</updated>
+    <updated>2020-04-18T01:25:59.486Z</updated>
     
     <summary type="html">
     
@@ -65,9 +124,9 @@
       <category term="xss" scheme="https://guchangan1.github.io/categories/xss/"/>
     
     
-      <category term="xss" scheme="https://guchangan1.github.io/tags/xss/"/>
-    
       <category term="渗透测试" scheme="https://guchangan1.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="xss" scheme="https://guchangan1.github.io/tags/xss/"/>
     
   </entry>
   
@@ -76,7 +135,7 @@
     <link href="https://guchangan1.github.io/2020/02/16/sort-algorithms/"/>
     <id>https://guchangan1.github.io/2020/02/16/sort-algorithms/</id>
     <published>2020-02-16T07:09:23.000Z</published>
-    <updated>2020-04-14T09:09:07.076Z</updated>
+    <updated>2020-04-14T09:36:12.568Z</updated>
     
     <summary type="html">
     
