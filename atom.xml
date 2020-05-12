@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://guchangan1.github.io/"/>
-  <updated>2020-05-11T15:51:49.072Z</updated>
+  <updated>2020-05-12T05:03:35.558Z</updated>
   <id>https://guchangan1.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo404问题</title>
+    <link href="https://guchangan1.github.io/2020/05/12/hexo404-wen-ti/"/>
+    <id>https://guchangan1.github.io/2020/05/12/hexo404-wen-ti/</id>
+    <published>2020-05-12T05:01:33.000Z</published>
+    <updated>2020-05-12T05:03:35.558Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h4&gt;&lt;p&gt;在更新上传了一篇新博客后，本地运行&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="问题归纳" scheme="https://guchangan1.github.io/categories/%E9%97%AE%E9%A2%98%E5%BD%92%E7%BA%B3/"/>
+    
+    
+      <category term="博客404问题" scheme="https://guchangan1.github.io/tags/%E5%8D%9A%E5%AE%A2404%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>study plan</title>

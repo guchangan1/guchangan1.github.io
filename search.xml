@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>hexo404问题</title>
+      <link href="/2020/05/12/hexo404-wen-ti/"/>
+      <url>/2020/05/12/hexo404-wen-ti/</url>
+      
+        <content type="html"><![CDATA[<h4 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h4><p>在更新上传了一篇新博客后，本地运行<a href="http://localhost:4001正常，而连接到Github仓库便爆出404错误。/" target="_blank" rel="noopener">http://localhost:4001正常，而连接到Github仓库便爆出404错误。</a></p><p><a href="https://eosdota.xyz/2019/01/29/Debug_hexo_404/#更新博客后，依次执行：" target="_blank" rel="noopener">更新博客后，依次执行：</a></p><p><em>1</em> hexo clean</p><p><em>2</em> hexo g -d</p><p><em>3</em> hexo s</p><p><a href="https://eosdota.xyz/2019/01/29/Debug_hexo_404/#编译器运行结果如下：" target="_blank" rel="noopener">编译器运行结果如下：</a></p><p><img src="https:////upload-images.jianshu.io/upload_images/9561213-196b0ad9fb31c34f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p><p>运行正常，未发生任何FATAL ERROR</p><p><a href="http://localhost:4001运行结果如下：/" target="_blank" rel="noopener">http://localhost:4001运行结果如下：</a></p><p><img src="https:////upload-images.jianshu.io/upload_images/9561213-1d667a63a23852f2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p><p><a href="https://eosdota.xyz/2019/01/29/Debug_hexo_404/#浏览器运行报错，出现404：" target="_blank" rel="noopener">浏览器运行报错，出现404：</a></p><p><img src="https:////upload-images.jianshu.io/upload_images/9561213-20b0a14a8e038f24.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a><a href="https://eosdota.xyz/2019/01/29/Debug_hexo_404/#解决方案" target="_blank" rel="noopener">解决方案</a></h3><h4 id="方案一（本人）"><a href="#方案一（本人）" class="headerlink" title="方案一（本人）"></a>方案一（本人）</h4><p>我申请了个人域名（<a href="https://eosdota.xyz/2019/01/29/Debug_hexo_404/eosdota.xyz" target="_blank" rel="noopener">eosdota.xyz</a>），并将其替换了大长串的Github域名（<a href="https://eosdota.xyz/2019/01/29/Debug_hexo_404/eos1o.github.io" target="_blank" rel="noopener">eos1o.github.io</a>），所以本解决方法适用于已经更换成个人域名的小伙伴，方法如下：</p><p><em>1</em> 执行 hexo g -d ,</p><p><em>2</em> 登陆Github官网</p><p><em>3</em> 打开项目仓库</p><p><em>4</em> 进入Settings设置</p><p><em>5</em> 将页面倒数第二目录Github Page中的Custom domain设置为个人域名并保存</p><p><em>6</em> 点击仓库名旁的rename（不用改动，只需点击）</p><p>恭喜，此时在浏览器中便可以打开博客了了！</p><h4 id="方案二（网上）"><a href="#方案二（网上）" class="headerlink" title="方案二（网上）"></a>方案二（网上）</h4><p>有些小伙伴之所以产生404错误，一个可能的原因是仓库名与_condig.yml中的设置存在出入，解决办法如下：</p><p>更改(rename)仓库名，使之与你的的github的登陆链接（例如，我的为<a href="https://eosdota.xyz/2019/01/29/Debug_hexo_404/eos1o.github.io" target="_blank" rel="noopener">eos1o.github.io</a>）相一致。</p><p><img src="https:////upload-images.jianshu.io/upload_images/9561213-d7c9eefceda0c90d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p><p><img src="https:////upload-images.jianshu.io/upload_images/9561213-41efa39f82a738c2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/885/format/webp" alt="img"></p><h4 id="方案三（网上）"><a href="#方案三（网上）" class="headerlink" title="方案三（网上）"></a>方案三（网上）</h4><p>还一个可能产生404的原因便是因为缺少了index.html文件，解决方案如下：</p><p>在git bash中敲入</p><p>npm install hexo-generator-index –save</p><p>之后便有index.html文件了。不妨重新hexo clean，hexo g -d试试。</p><p>转载<a href="https://www.jianshu.com/u/a23739c6c889" target="_blank" rel="noopener">半缘青荇</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 问题归纳 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客404问题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>study plan</title>
       <link href="/2020/05/11/study-plan/"/>
       <url>/2020/05/11/study-plan/</url>
