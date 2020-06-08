@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://guchangan1.github.io/"/>
-  <updated>2020-05-12T05:09:01.648Z</updated>
+  <updated>2020-06-08T14:20:09.045Z</updated>
   <id>https://guchangan1.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>php代码审计</title>
+    <link href="https://guchangan1.github.io/2020/06/08/php-dai-ma-shen-ji/"/>
+    <id>https://guchangan1.github.io/2020/06/08/php-dai-ma-shen-ji/</id>
+    <published>2020-06-08T14:10:50.000Z</published>
+    <updated>2020-06-08T14:20:09.045Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;PHP代码审计-常见危险函数&quot;&gt;&lt;a href=&quot;#PHP代码审计-常见危险函数&quot; class=&quot;headerlink&quot; title=&quot;PHP代码审计-常见危险函数&quot;&gt;&lt;/a&gt;PHP代码审计-常见危险函数&lt;/h1&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="渗透测试" scheme="https://guchangan1.github.io/categories/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="渗透测试" scheme="https://guchangan1.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="代码审计" scheme="https://guchangan1.github.io/tags/%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/"/>
+    
+      <category term="php" scheme="https://guchangan1.github.io/tags/php/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo404问题</title>

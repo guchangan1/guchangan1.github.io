@@ -4,11 +4,13 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="“owasp top 10”, 所有热爱的事情都要全力以赴">
+    <meta name="keywords" content="php代码审计, 所有热爱的事情都要全力以赴">
     <meta name="baidu-site-verification" content="fmlEuI34ir">
     <meta name="google-site-verification" content="yCy2azpds5XSuGZvis6OuA-XIGF5GuGpYRAaGfD6o48">
     <meta name="360-site-verification" content="b7c11a830ef90fd1464ad6206bb7b6e7">
-    <meta name="description" content="Owasp Top10介绍什么是OWASP Top 10OWASP（开放式Web应用程序安全项目）的工具、文档、论坛和全球各地分会都是开放的，对所有致力于改进应用程序安全的人士开放，其最具权威的就是“10项最严重的Web 应用程序安全风险列">
+    <meta name="description" content="PHP代码审计-常见危险函数https://blog.csdn.net/XavierDarkness/article/details/78041875
+## 
+常见PHP危险函数及特殊函数https://blog.csdn.net/qq_1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -16,7 +18,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>“owasp top 10” | 顾长安的博客</title>
+    <title>php代码审计 | 顾长安的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -266,13 +268,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        “owasp top 10”
+                        php代码审计
                     </div>
                 </div>
             </div>
@@ -387,6 +389,14 @@
                             <span class="chip bg-color">渗透测试</span>
                         </a>
                         
+                        <a href="/tags/代码审计/" target="_blank">
+                            <span class="chip bg-color">代码审计</span>
+                        </a>
+                        
+                        <a href="/tags/php/" target="_blank">
+                            <span class="chip bg-color">php</span>
+                        </a>
+                        
                     </div>
                     
                 </div>
@@ -407,7 +417,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-04-14
+                    2020-06-08
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -421,14 +431,14 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.2k
+                    112
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    4 分
+                    1 分
                 </div>
                 
                 
@@ -444,8 +454,12 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="Owasp-Top10介绍"><a href="#Owasp-Top10介绍" class="headerlink" title="Owasp Top10介绍"></a>Owasp Top10介绍</h2><h3 id="什么是OWASP-Top-10"><a href="#什么是OWASP-Top-10" class="headerlink" title="什么是OWASP Top 10"></a>什么是OWASP Top 10</h3><p>OWASP（开放式Web应用程序安全项目）的工具、文档、论坛和全球各地分会都是开放的，对所有致力于改进应用程序安全的人士开放，其最具权威的就是“10项最严重的Web 应用程序安全风险列表” ，总结了Web应用程序最可能、最常见、最危险的十大漏洞，是开发、测试、服务、咨询人员应知应会的知识。</p>
-<h3 id="A1-注入injection"><a href="#A1-注入injection" class="headerlink" title="A1 注入injection"></a>A1 注入injection</h3><pre><code>将不安全的命令作为命令发送给解析器，会产生类似于SQL注入、NoSQL注入、OS注入和LDAP注入(轻量目录访问协议) 的缺陷，攻击者可以构造恶意数据通过注入缺陷的解析器执行没有权限的非预期命令或访问数据。</code></pre><h3 id="A2-失效的身份认证"><a href="#A2-失效的身份认证" class="headerlink" title="A2 失效的身份认证"></a>A2 失效的身份认证</h3><pre><code>通过错误使用应用程序的身份认证和会话管理功能，攻击者能够破译密码、密钥或会话令牌，或者暂时或永久的冒充其他用户的身份。</code></pre><h3 id="A3-敏感数据泄露"><a href="#A3-敏感数据泄露" class="headerlink" title="A3 敏感数据泄露"></a>A3 敏感数据泄露</h3><pre><code>这个比较好理解，一般我们的敏感信息包括密码、财务数据、医疗数据等，由于web应用或者API未加密或不正确的保护敏感数据，这些数据极易遭到攻击者利用，攻击者可能使用这些数据来进行一些犯罪行为，因此，未加密的信息极易遭到破坏和利用，我们应该加强对敏感数据的保护，web应用应该在传输过程中数据、存储的数据以及和浏览器的交互时的数据进行加密，保证数据安全。</code></pre><h3 id="A4外部实体-XXE"><a href="#A4外部实体-XXE" class="headerlink" title="A4外部实体(XXE)"></a>A4外部实体(XXE)</h3><pre><code>XXE 全称为XML External Entity attack 即XML(可扩展标记语言) 外部实体注入攻击，早期或配置错误的XML处理器评估了XML文件外部实体引用，攻击者可以利用这个漏洞窃取URI(统一资源标识符)文件处理器的内部文件和共享文件、监听内部扫描端口、执行远程代码和实施拒绝服务攻击。</code></pre><h3 id="A5失效的访问控制"><a href="#A5失效的访问控制" class="headerlink" title="A5失效的访问控制"></a>A5失效的访问控制</h3><pre><code>通过身份验证的用户，可以访问其他用户的相关信息，没有实施恰当的访问权限。攻击者可以利用这个漏洞去查看未授权的功能和数据，eg:访问用户的账户、敏感文件、获取和正常用户相同的权限等.</code></pre><h3 id="A6-安全配置错误"><a href="#A6-安全配置错误" class="headerlink" title="A6 安全配置错误"></a>A6 安全配置错误</h3><pre><code>安全配置错误是比较常见的漏洞，由于操作者的不当配置(默认配置，临时配置，开源云存储，http标头配置，以及包含敏感信息的详细错误)，导致攻击者可以利用这些配置获取到更高的权限，安全配置错误可以发生在各个层面，包含平台、web服务器、应用服务器、数据库、架构和代码。</code></pre><h3 id="A7-跨站脚本（xss）"><a href="#A7-跨站脚本（xss）" class="headerlink" title="A7 跨站脚本（xss）"></a>A7 跨站脚本（xss）</h3><pre><code>xss攻击全称为跨站脚本攻击,当应用程序的新网页中包含不受信任的、未经恰当验证、转义的数据或可以使用HTML、JavaScript的浏览器API更新的现有网页时，就会出现xss漏洞，跨站脚本攻击是最普遍的web应用安全漏洞，甚至在某些安全平台都存在xss漏洞。xss会执行攻击者在浏览器中执行的脚本，并劫持用户会话，破坏网站或用户重定向到恶意站点，使用xss还可以执行拒绝服务攻击。</code></pre><h3 id="A8不安全的反序列化"><a href="#A8不安全的反序列化" class="headerlink" title="A8不安全的反序列化"></a>A8不安全的反序列化</h3><pre><code>不安全的反序列化可以导致远程代码执行、重放攻击、注入攻击或特权升级攻击</code></pre><h3 id="A9使用含有已知漏洞的组件"><a href="#A9使用含有已知漏洞的组件" class="headerlink" title="A9使用含有已知漏洞的组件"></a>A9使用含有已知漏洞的组件</h3><pre><code>组件(eg：库、框架或其他软件模块)拥有应用程序相同的权限，如果应用程序中含有已知漏洞，攻击者可以利用漏洞获取数据或接管服务器。同时，使用这些组件会破坏应用程序防御，造成各种攻击产生严重的后果。</code></pre><h3 id="A10-不足的日志记录和监控"><a href="#A10-不足的日志记录和监控" class="headerlink" title="A10 不足的日志记录和监控"></a>A10 不足的日志记录和监控</h3><pre><code>这个和等保有一定的关系，不作介绍，不足的日志记录和监控，以及事件响应缺失或无效的集成，使攻击者能够进一步攻击系统、保持持续性的或攻击更多的系统，以及对数据的不当操作。</code></pre><h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><pre><code>大概了解了top 10的相关漏洞，对于漏洞有了一个大概的认识，接下来就是去多实际操作，去熟悉漏洞的相关特性，有助于您更好的了解这些漏洞。</code></pre><p>原文链接：<a href="https://blog.csdn.net/wang_624/article/details/89683571" target="_blank" rel="noopener">https://blog.csdn.net/wang_624/article/details/89683571</a></p>
+                <h1 id="PHP代码审计-常见危险函数"><a href="#PHP代码审计-常见危险函数" class="headerlink" title="PHP代码审计-常见危险函数"></a>PHP代码审计-常见危险函数</h1><p><a href="https://blog.csdn.net/XavierDarkness/article/details/78041875" target="_blank" rel="noopener">https://blog.csdn.net/XavierDarkness/article/details/78041875</a></p>
+<p>## </p>
+<h1 id="常见PHP危险函数及特殊函数"><a href="#常见PHP危险函数及特殊函数" class="headerlink" title="常见PHP危险函数及特殊函数"></a>常见PHP危险函数及特殊函数</h1><p><a href="https://blog.csdn.net/qq_17204441/article/details/88834109?utm_medium=distribute.pc_relevant.none-task-blog-baidujs-1" target="_blank" rel="noopener">https://blog.csdn.net/qq_17204441/article/details/88834109?utm_medium=distribute.pc_relevant.none-task-blog-baidujs-1</a></p>
+<h1 id="PHP危险函数总结"><a href="#PHP危险函数总结" class="headerlink" title="PHP危险函数总结"></a>PHP危险函数总结</h1><p><a href="https://blog.csdn.net/qq_43431158/article/details/99673451?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-6.nonecase&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-6.nonecase" target="_blank" rel="noopener">https://blog.csdn.net/qq_43431158/article/details/99673451?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-6.nonecase&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-6.nonecase</a></p>
+<h2 id="PHP代码命令注入小结"><a href="#PHP代码命令注入小结" class="headerlink" title="PHP代码命令注入小结"></a>PHP代码命令注入小结</h2><p><a href="https://www.freebuf.com/column/166385.html" target="_blank" rel="noopener">https://www.freebuf.com/column/166385.html</a></p>
+<h1 id="常见危险函数及特殊函数"><a href="#常见危险函数及特殊函数" class="headerlink" title="常见危险函数及特殊函数"></a>常见危险函数及特殊函数</h1><p><a href="https://www.jianshu.com/p/277294c1a9f8" target="_blank" rel="noopener">https://www.jianshu.com/p/277294c1a9f8</a></p>
 
             </div>
             <hr />
@@ -604,9 +618,9 @@
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《“owasp top 10”》
+                    《php代码审计》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/04/14/owasp-top-10/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/06/08/php-dai-ma-shen-ji/" property="cc:attributionName"
                rel="cc:attributionURL">
                 顾长安
             </a> 采用
@@ -908,41 +922,45 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/04/18/source-notebook/">
+                <a href="/2020/06/08/php-dai-ma-shen-ji/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="source-notebook">
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="php代码审计">
                         
-                        <span class="card-title">source-notebook</span>
+                        <span class="card-title">php代码审计</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            本文整理资料
+                            PHP代码审计-常见危险函数https://blog.csdn.net/XavierDarkness/article/details/78041875
+## 
+常见PHP危险函数及特殊函数https://blog.csdn.net/qq_1
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-18
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-06-08
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/学习资源/" class="post-category" target="_blank">
-                                    学习资源
+                            <a href="/categories/渗透测试/" class="post-category" target="_blank">
+                                    渗透测试
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -950,8 +968,12 @@
                         <span class="chip bg-color">渗透测试</span>
                     </a>
                     
-                    <a href="/tags/渗透工具/" target="_blank">
-                        <span class="chip bg-color">渗透工具</span>
+                    <a href="/tags/代码审计/" target="_blank">
+                        <span class="chip bg-color">代码审计</span>
+                    </a>
+                    
+                    <a href="/tags/php/" target="_blank">
+                        <span class="chip bg-color">php</span>
                     </a>
                     
                 </div>
@@ -965,34 +987,33 @@
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/04/04/test/">
+                <a href="/2020/05/12/hexo404-wen-ti/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="xss备忘录">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="hexo404问题">
                         
-                        <span class="card-title">xss备忘录</span>
+                        <span class="card-title">hexo404问题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            前言
-XSS备忘录0x00 渗透流程
-观察输入输出点，测试waf过滤情况
-简单: “‘#$%^ 全面: '";!-=#$%^&{()}alert(String.fromCharCode(88,83,83));prompt(1);confir
+                            方案一（本人）我申请了个人域名（godtao.com），并将其替换了大长串的Github域名（guchangan1.github.io），所以本解决方法适用于已经更换成个人域名的小伙伴，方法如下：
+1 执行 hexo g -d ,
+2 登陆
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-04
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-12
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/xss/" class="post-category" target="_blank">
-                                    xss
+                            <a href="/categories/问题归纳/" class="post-category" target="_blank">
+                                    问题归纳
                                 </a>
                             
                             
@@ -1002,12 +1023,8 @@ XSS备忘录0x00 渗透流程
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/渗透测试/" target="_blank">
-                        <span class="chip bg-color">渗透测试</span>
-                    </a>
-                    
-                    <a href="/tags/xss/" target="_blank">
-                        <span class="chip bg-color">xss</span>
+                    <a href="/tags/博客404问题/" target="_blank">
+                        <span class="chip bg-color">博客404问题</span>
                     </a>
                     
                 </div>

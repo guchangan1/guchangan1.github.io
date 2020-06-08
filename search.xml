@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>php代码审计</title>
+      <link href="/2020/06/08/php-dai-ma-shen-ji/"/>
+      <url>/2020/06/08/php-dai-ma-shen-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="PHP代码审计-常见危险函数"><a href="#PHP代码审计-常见危险函数" class="headerlink" title="PHP代码审计-常见危险函数"></a>PHP代码审计-常见危险函数</h1><p><a href="https://blog.csdn.net/XavierDarkness/article/details/78041875" target="_blank" rel="noopener">https://blog.csdn.net/XavierDarkness/article/details/78041875</a></p><p>## </p><h1 id="常见PHP危险函数及特殊函数"><a href="#常见PHP危险函数及特殊函数" class="headerlink" title="常见PHP危险函数及特殊函数"></a>常见PHP危险函数及特殊函数</h1><p><a href="https://blog.csdn.net/qq_17204441/article/details/88834109?utm_medium=distribute.pc_relevant.none-task-blog-baidujs-1" target="_blank" rel="noopener">https://blog.csdn.net/qq_17204441/article/details/88834109?utm_medium=distribute.pc_relevant.none-task-blog-baidujs-1</a></p><h1 id="PHP危险函数总结"><a href="#PHP危险函数总结" class="headerlink" title="PHP危险函数总结"></a>PHP危险函数总结</h1><p><a href="https://blog.csdn.net/qq_43431158/article/details/99673451?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-6.nonecase&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-6.nonecase" target="_blank" rel="noopener">https://blog.csdn.net/qq_43431158/article/details/99673451?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-6.nonecase&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-6.nonecase</a></p><h2 id="PHP代码命令注入小结"><a href="#PHP代码命令注入小结" class="headerlink" title="PHP代码命令注入小结"></a>PHP代码命令注入小结</h2><p><a href="https://www.freebuf.com/column/166385.html" target="_blank" rel="noopener">https://www.freebuf.com/column/166385.html</a></p><h1 id="常见危险函数及特殊函数"><a href="#常见危险函数及特殊函数" class="headerlink" title="常见危险函数及特殊函数"></a>常见危险函数及特殊函数</h1><p><a href="https://www.jianshu.com/p/277294c1a9f8" target="_blank" rel="noopener">https://www.jianshu.com/p/277294c1a9f8</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 渗透测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 渗透测试 </tag>
+            
+            <tag> 代码审计 </tag>
+            
+            <tag> php </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo404问题</title>
       <link href="/2020/05/12/hexo404-wen-ti/"/>
       <url>/2020/05/12/hexo404-wen-ti/</url>
